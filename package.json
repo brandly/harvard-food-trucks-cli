@@ -1,0 +1,31 @@
+{
+  "name": "harvard-food-trucks-cli",
+  "version": "0.1.0",
+  "description": "check on Chicken & Rice Guys",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandly/harvard-food-trucks-cli.git"
+  },
+  "author": "Matthew Brandly <brandly13@gmail.com> (http://brandly.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandly/harvard-food-trucks-cli/issues"
+  },
+  "homepage": "https://github.com/brandly/harvard-food-trucks-cli#readme",
+  "dependencies": {
+    "axios": "0.13.0",
+    "lodash": "4.13.1",
+    "moment": "2.14.1"
+  },
+  "bin": {
+    "harvard-food-trucks": "cli.js"
+  },
+  "preferGlobal": true,
+  "files": [
+    "index.js"
+  ]
+}
