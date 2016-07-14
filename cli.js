@@ -28,7 +28,7 @@ axios.get(baseUrl, {
     console.log(usefulDate.format('dddd, MMMM Do'))
 
     trucksOnDate.forEach((truck) => {
-      console.log(`\t${truck.summary}`)
+      console.log(`  ${truck.summary}`)
     })
 
     console.log('')
