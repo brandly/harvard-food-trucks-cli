@@ -1,6 +1,6 @@
 # harvard-food-trucks-cli
 
-```shell
+```
 $ npm i -g harvard-food-trucks-cli
 $ harvard-food-trucks
 Thursday, July 14th
