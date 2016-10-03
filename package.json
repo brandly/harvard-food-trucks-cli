@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/brandly/harvard-food-trucks-cli#readme",
   "dependencies": {
-    "axios": "0.13.0",
-    "lodash": "4.13.1",
-    "moment": "2.14.1"
+    "axios": "0.14.0",
+    "lodash": "4.16.2",
+    "moment": "2.15.1"
   },
   "bin": {
     "harvard-food-trucks": "cli.js"
