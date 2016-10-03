@@ -19,7 +19,7 @@ axios.get(baseUrl, {
   }
 }).then((res) => {
   const items = res.data.items
-  const groupedItems = _.groupBy(items, (item) => item.start.date)
+  const groupedItems = _.groupBy(items, (item) => item.start.dateTime)
 
   Object.keys(groupedItems).forEach((date) => {
     const trucksOnDate = groupedItems[date]
