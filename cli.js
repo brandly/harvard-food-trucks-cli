@@ -19,10 +19,10 @@ axios.get(baseUrl, {
   }
 }).then((res) => {
   const items = res.data.items
-  const groupedItems = _.groupBy(items, (item) => item.start.dateTime)
+  const byDay = _.groupBy(items, (item) => item.start.dateTime.split('T')[0])
 
-  Object.keys(groupedItems).forEach((date) => {
-    const trucksOnDate = groupedItems[date]
+  Object.keys(byDay).forEach((date) => {
+    const trucksOnDate = byDay[date]
 
     const usefulDate = moment(date)
     console.log(usefulDate.format('dddd, MMMM Do'))
